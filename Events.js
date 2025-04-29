@@ -1,15 +1,15 @@
 const eventsByDay = {
             1: [ // Понедельник
-                { time: new Date().setHours(9, 0), label: 'Разговоры', type: 'type1', duration: 30 * 60 * 1000},
-                { time: new Date().setHours(9, 45), label: 'Физ-ра', type: 'type1', duration: 40 * 60 * 1000},
+                { time: new Date().setHours(9, 0), type: 'type1', duration: 30 * 60 * 1000},
+                { time: new Date().setHours(9, 45), type: 'type1', duration: 40 * 60 * 1000},
                 { time: new Date().setHours(10, 25), type: 'type3', duration: 15 * 60 * 1000},
-                { time: new Date().setHours(10, 40), label: 'География', type: 'type1', duration: 40 * 60 * 1000},
-                { time: new Date().setHours(11, 30), label: 'История', type: 'type1', duration: 40 * 60 * 1000},
-                { time: new Date().setHours(12, 30), label: 'Алгебра', type: 'type1', duration: 40 * 60 * 1000},
-                { time: new Date().setHours(13, 30), label: 'Литература', type: 'type1', duration: 40 * 60 * 1000},
+                { time: new Date().setHours(10, 40), type: 'type1', duration: 40 * 60 * 1000},
+                { time: new Date().setHours(11, 30), type: 'type1', duration: 40 * 60 * 1000},
+                { time: new Date().setHours(12, 30), type: 'type1', duration: 40 * 60 * 1000},
+                { time: new Date().setHours(13, 30), type: 'type1', duration: 40 * 60 * 1000},
                 { time: new Date().setHours(14, 10), type: 'type3', duration: 20 * 60 * 1000},
-                { time: new Date().setHours(14, 30), label: 'Английский', type: 'type1', duration: 40 * 60 * 1000},
-                { time: new Date().setHours(15, 15), label: 'Россия - моя история', type: 'type1', duration: 40 * 60 * 1000},
+                { time: new Date().setHours(14, 30), type: 'type1', duration: 40 * 60 * 1000},
+                { time: new Date().setHours(15, 15), type: 'type1', duration: 40 * 60 * 1000},
                 
                 { time: new Date().setHours(10, 30), label: 'Разговоры', type: 'type2', duration: 45 * 60 * 1000},
                 { time: new Date().setHours(11, 30), label: 'Английский', type: 'type2', duration: 40 * 60 * 1000},
