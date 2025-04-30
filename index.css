@@ -122,7 +122,6 @@ html, body {
 .event.type1 {
       background-color: rgba(62, 88, 229, 0.6);
       top: -43px;
-      label: 'Что-то';
       height: 19px;
 }
 /* Стили для уроков Рустама */
