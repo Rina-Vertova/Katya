@@ -128,11 +128,13 @@ html, body {
 .event.type2 {
       background-color: rgba(0, 126, 91, 0.6);
       top: -12px;
+      height: 19px;
 }
 /* Стили для уроков Насти */
 .event.type5 {
       background-color: rgba(232, 80, 87, 0.6);
       top: 19px;
+      height: 19px;
 }
 /* Стили для столовой */
 .event.type3 {
